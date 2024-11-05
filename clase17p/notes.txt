@@ -1,6 +1,0 @@
-
-CRA - CREATE REACT APP
-
-VITE
-
-https://swc.rs/

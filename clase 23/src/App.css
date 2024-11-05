@@ -41,11 +41,33 @@
   color: #888;
 }
 
-.button{
-  background-color: pink;
-  color: rgb(28, 19, 85);
+
+label{
+  display: block;
 }
 
-.p{
+span{
+  display: block;
   color: red;
+  font-size: x-small;
+  display: none;
+}
+
+input{
+  margin-bottom: .3rem;
+}
+
+.formInput{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
+input:invalid[focused="true"]{
+  border: 2px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+  display: block;
 }
